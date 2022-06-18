@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Book Lists</title>
+	<link rel="stylesheet" href="static/styles/home.css">
+	<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("white.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body background="images/white.jpg">
+
+<h1>Book Lists</h1>
+
+
+	<div id="center">
+		<div class="Books-table">
+
+			<div class="Book">
+				<img src="images/The Fifth Season by NK Jemisin.jpg" height="200">
+				<div class="Book Desc">
+					<span class="Book Name"><b>The Fifth Season by NK Jemisin (The Broken Earth)</b></span>
+					<span class="Book Description"> <br>
+						<b>--> Sinopsis</b> <p>The Broken Earth trilogy can be a brutal, painful experience. 
+						There is much tragedy, despair and the characters’ futures often look nothing but bleak. 
+						But these ambitious, heartbreaking books mark a new stage in the evolution of the fantasy genre 
+						and their complexity, world-building, and themes break new ground.</p> 
+						<b>--> Category</b> - Fantasy book <br>
+						<b>--> Publication date</b> : 2016 (The Fifth Season) <br> 
+						</span>
+					<span class="Book Price">Book Price RM35.00</span>
+					<span class="Book Button"> <br>
+						<button type="radio">Buy</button>
+						
+					</span>
+				</div>
+			</div>
+
+			<div class="Book">
+				<img src="images/Jade City by Fonda Lee The Green Bone Saga.png" height="230">
+				<div class="Book Desc">
+					<span class="Book Name"><b>Jade City by Fonda Lee (The Green Bone Saga)</b></span>
+					<span class="Book Description"> <br>
+						<b>--> Sinopsis</b> <p>Emotionally shocking moments, intricate and otherworldly fight scenes, and lots of loyalty, honor, and tradition. 
+						Jade City is an epic, unique, and often unforgiving gangster fantasy narrative intertwined with glimpses of hope and goodness. 
+						The haunting nature of the world is also mixed with betrayals and a huge death toll.</p>
+						<b>--> Category</b> - Fantasy book <br>
+						<b>--> Publication date</b> : 2018 (Jade City)<br>
+					</span>
+					<span class="Book Price">Book Price RM40.00</span>
+					<span class="Book Button"> <br>
+						<button>Buy</button>
+						
+					</span>
+				</div>
+			</div>
+			
+			<div class="Book">
+				<img src="images/Start Finishing.jpg" height="230">
+				<div class="Book Desc">
+					<span class="Book Name"><b>Start Finishing: How to Go from Idea to Done Kindle</b></span>
+					<span class="Book Description"> <br>
+						<b>--> Sinopsis</b> <p>Until now. In Start Finishing, Gilkey will take you through his 9-step method to take turn your ideas into projects, 
+						and give you the tools you need to break those projects down into achievable tasks. Chock-full of actionable tips and advice, 
+						this book doesn’t just give you inspirational speeches and leave you to figure out how to apply those principles to your life. 
+						Instead, it presents to you concrete solutions for just about every part of the process, from building a team of supporters, 
+						to identifying and working through “drag points,” all the way to a strong and successful completion of your goal. </p>
+						<b>--> Category</b> - 	Self-help or Personal <br>
+						<b>--> Publication date</b> : 2019<br>
+					</span>
+					<span class="Book Price">Book Price RM55.00</span>
+					<span class="Book Button"> <br>
+						<checkbox>Buy</checkbox>
+						
+					</span>
+				</div>
+			</div>
+			
+			<div class="Book">
+				<img src="images/The Thinking Game.jpg" height="230">
+				<div class="Book Desc">
+					<span class="Book Name"><b>The Thinking Game: A Winning Strategy for Achieving Your Goals Kindle Edition</b></span>
+					<span class="Book Description"> <br>
+						<b>-->Sinopsis</b> <p>Problem: things fall apart. Solution: think your way out of it. It may sound easy, but often the simplest things are the hardest, 
+						right? CPA Kara Lane, the author of The Thinking Game, is aware of this and has expertly broken down how to change thought patterns in real-time. 
+						By shifting your thinking, she argues that manifesting the things you want is more attainable. By playing Lane’s ‘game of thought,’ 
+						you’ll be able to nail goal crushing, refine your discernment skills, focus on delight instead of dread, and prioritize the things that you have 
+						agency over instead of wasting time on things you don’t. If thoughts really do become things, then we’d suggest thinking about reading this self-help book. </p>
+						<b>--> Category </b>- 	Self-help or Personal <br>
+						<b>--> Publication date</b> : 2019<br>
+					</span>
+					<span class="Book Price">Book Price RM30.00</span>
+					<span class="Book Button"> <br>
+						<button>Buy</button>
+						
+					</span>
+				</div>
+			</div>
+			
+
+		</div>
+	</div>
+<div>
+
+
+
+<b>PLEASE CHOOSE BOOKS YOU WANT TO BUY:</b><br>
+
+ <input type="checkbox" checked="checked" name="fifth season"> The Fifth Season by NK Jemisin<br>
+ <input type="checkbox" checked="checked" name="jade city"> Jade City by Fonda Lee The Green Bone Saga<br>
+ <input type="checkbox" checked="checked" name="Start Finishing"> Start Finishing<br>
+ <input type="checkbox" checked="checked" name="The Thinking Game"> The Thinking Game<br>
+ 
+ <button type="submit">PURCHASE</button>
+ 
+ </div>
+</body>
+
+</html>
